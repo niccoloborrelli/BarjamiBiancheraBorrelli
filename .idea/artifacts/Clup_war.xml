@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Clup:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Clup</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Clup-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Clup:war exploded" />
+    </root>
+  </artifact>
+</component>
